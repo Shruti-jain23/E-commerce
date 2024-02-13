@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Sen&display=swap');
+
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Forum', serif;
+    font-family: 'Sen', sans-serif;
+
+}
+header{
+    opacity:0.6;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    z-index:10;
+    position: relative;
+
+
+}
+header img{
+    height:60px;
+    width:60px;
+}
+
+header .nav-bar a{
+    text-decoration: none;
+    color:white;
+    padding:10px;
+    font-size:larger;
+    
+
+    
+    
+    
+}
+header .nav-bar  a:hover{
+    text-decoration: underline;
+}
+header .nav-bar img{
+    width:25px;
+    height:25px;
+    margin:10px;
+    background-color: white;
+    
+    
+}.home .matter{
+    color: black;
+    width:329px;
+    z-index: 1;
+    margin:150px;
+}
+.home .matter h1{
+    margin:20px;
+    font-size:80px;
+}
+.home .matter p{
+    margin:20px;
+    font-size: 15px;
+}
+
+ .home .vid{
+    z-index: -1;
+    position:absolute;
+    top: 0;
+    left:0;
+    height:715px;
+    width:100%;
+    object-fit:cover;
+}
+.brands{
+    display:flex;
+    justify-content: space-around;
+}
+.brands img{
+    height:150px;
+    width:150px;
+    
+}
+.products{
+    display:flex;
+    justify-content: space-around;
+   
+}
+.products img{
+    height:600px;
+    width: 600px;
+    border:10px solid black;
+    
+}
+
+.content{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+    
+    
+}
+.content:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
